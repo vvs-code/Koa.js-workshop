@@ -25,9 +25,9 @@
     "co-body": "0",
     "escape-html": "^1.0.2",
     "jade": "^1.11.0",
-    "koa": "^0.21.0",
-    "koa-csrf": "^2.3.0",
-    "koa-session": "^3.2.0",
+    "koa": "0",
+    "koa-csrf": "2",
+    "koa-session": "2",
     "mocha": "^2.2.5",
     "mz": "^2.0.0",
     "supertest": "^1.0.1"
