@@ -1,0 +1,34 @@
+{
+  "name": "koa.js-workshop",
+  "version": "0.0.0",
+  "description": "Try koa.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail */test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvs-code/Koa.js-workshop.git"
+  },
+  "keywords": [
+    "koa.js",
+    "workshop"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvs-code/Koa.js-workshop/issues"
+  },
+  "homepage": "https://github.com/vvs-code/Koa.js-workshop#readme",
+  "dependencies": {
+    "co": "^4.5.4",
+    "co-body": "^2.0.0",
+    "escape-html": "^1.0.2",
+    "jade": "^1.11.0",
+    "koa": "^0.21.0",
+    "koa-csrf": "^2.3.0",
+    "koa-session": "^3.2.0",
+    "mocha": "^2.2.5",
+    "mz": "^2.0.0",
+    "supertest": "^1.0.1"
+  }
+}
