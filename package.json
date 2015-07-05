@@ -20,9 +20,8 @@
   },
   "homepage": "https://github.com/vvs-code/Koa.js-workshop#readme",
   "dependencies": {
-    "chai": "^3.0.0",
-    "co": "3",
-    "co-body": "0",
+    "co": "^4.5.4",
+    "co-body": "^2.0.0",
     "escape-html": "^1.0.2",
     "jade": "^1.11.0",
     "koa": "0",
