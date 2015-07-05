@@ -14,7 +14,7 @@ var form = fs.readFileSync(path.join(__dirname, 'form.html'), 'utf8');
 csrf(app);
 
 // use koa-session somewhere at the top of the app
-app.use(session());
+app.use(session(null, app));
 
 // we need to set the `.keys` for signed cookies and the cookie-session module
 app.keys = ['secret1', 'secret2', 'secret3'];
